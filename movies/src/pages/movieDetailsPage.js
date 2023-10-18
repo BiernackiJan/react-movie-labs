@@ -5,6 +5,8 @@ import MovieDetails from "../components/movieDetails/";
 import Grid from "@mui/material/Grid";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import { getMovie, getMovieImages } from "../api/tmdb-api";
+
 
 const MoviePage = (props) => {
   const { id } = useParams();
