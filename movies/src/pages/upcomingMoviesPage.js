@@ -3,7 +3,7 @@ import { getUpcomingMovies } from "../api/tmdb-api";
 import PageTemplate from '../components/templateUpcomingMovies';
 import { useQuery } from 'react-query';
 import Spinner from '../components/spinner';
-import AddToWatchListIcon from '@mui/icons-material/PlaylistAdd'
+import AddToWatchListIcon from '../components/cardIcons/addToWatchList'
 
 
 

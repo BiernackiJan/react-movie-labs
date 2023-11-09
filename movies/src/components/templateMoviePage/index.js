@@ -17,10 +17,12 @@ const TemplateMoviePage = ({ movie, children }) => {
     return <Spinner />;
   }
 
+
   if (isError) {
     return <h1>{error.message}</h1>;
   }
   const images = data.posters 
+
 
   return (
     <>
@@ -54,5 +56,6 @@ const TemplateMoviePage = ({ movie, children }) => {
     </>
   );
 };
+
 
 export default TemplateMoviePage;
